@@ -7,9 +7,12 @@ It demonstrates how to build, test, and deploy a Node.js app inside Docker conta
 🚀 Features
 
 ✅ Simple To-Do list web app using Node.js & Express.js
+
 ✅ Dockerized for seamless deployments
+
 ✅ Jenkins CI/CD pipeline to automate build, test, and deploy
-✅ Unit tests with Jest
+
+
 ✅ Easy setup for local development with Docker Compose
 
 🛠️ Tech Stack
@@ -33,20 +36,26 @@ node-todo-cicd/
 │── README.md            # Documentation  
 
 ⚡ Local Setup
+
 # Install dependencies
+
 npm install
 
 # Run the app
+
 node app.js
 
 
 Access at: http://localhost:3000
 
 🐳 Run with Docker
+
 # Build Docker image
+
 docker build -t node-todo-app .
 
 # Run container
+
 docker run -p 3000:3000 node-todo-app
 
 
@@ -67,6 +76,7 @@ Docker Build & Push – Build Docker image & push to registry
 Deploy Stage – Run container using latest image
 
 📸 Project Architecture
+
 🔹 CI/CD Pipeline Flow
 
 🔹 Dockerized Node.js App
