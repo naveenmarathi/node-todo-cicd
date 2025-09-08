@@ -1,9 +1,15 @@
 
 # 🚀 To-Do Application Deployment-CI/CD with Jenkins & Docker 
 
-This project is a Node.js based To-Do List application designed to showcase CI/CD automation using Jenkins and containerization with Docker.
+## 📄 Project Description
 
+This project is a Node.js based To-Do List application designed to showcase CI/CD automation using Jenkins and containerization with Docker.
 It demonstrates how to build, test, and deploy a Node.js app inside Docker containers, fully automated via Jenkins pipelines.
+
+- Developers push code to GitHub.
+- Jenkins Master on EC2 triggers the pipeline and delegates tasks to Jenkins Agent.
+- Docker image is built, tested, and pushed to Docker Hub.
+- The latest Docker image is deployed using Docker Compose.
 
 🚀 Features
 
@@ -13,19 +19,20 @@ It demonstrates how to build, test, and deploy a Node.js app inside Docker conta
 
 ✅ Jenkins CI/CD pipeline to automate build, test, and deploy
 
-
 ✅ Easy setup for local development with Docker Compose
 
-🛠️ Tech Stack
+## 🛠️ Tools & Technologies
 
-Backend: Node.js, Express.js
+- **Jenkins** – CI/CD automation server (master/agent setup)
 
-Containerization: Docker, Docker Compose
+- **Docker** – Containerization of the application
 
-CI/CD: Jenkins
+-  **Docker Hub** – Container registry for image storage
+ 
+- **GitHub** – Source code repository
 
-Testing: Jest
-
+- **EC2 (AWS)** – Hosting Jenkins master and agent nodes
+  
 📂 Repository Structure
 node-todo-cicd/
 │── app.js               # Main application file  
