@@ -1,4 +1,5 @@
-📝 Node.js To-Do Application – CI/CD with Jenkins & Docker
+
+# 🚀 Node.js To-Do Application Deployment using CI/CD with Jenkins & Docker 
 
 This project is a Node.js based To-Do List application designed to showcase CI/CD automation using Jenkins and containerization with Docker.
 
