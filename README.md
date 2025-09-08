@@ -73,15 +73,15 @@ docker-compose up --build
 
 🔄 Jenkins CI/CD
 
-This project includes a Jenkinsfile for pipeline automation:
+- This project includes a Jenkinsfile for pipeline automation.
 
-Build Stage – Install Node.js dependencies & build the app
+- Build Stage - Install Node.js dependencies & build the app.
 
-Test Stage – Run unit tests (test.js)
+- Test stage - Run unit tests (test.js).
 
-Docker Build & Push – Build Docker image & push to registry
+- Docker Build & Push – Build Docker image & push to registry.
 
-Deploy Stage – Run container using latest image
+- Deploy Stage – Run container using latest image.
 
 📸 Project Architecture
 
@@ -93,14 +93,14 @@ Deploy Stage – Run container using latest image
 
 This project demonstrates how a simple Node.js To-Do application can be enhanced with modern DevOps practices. By integrating Jenkins CI/CD pipelines and Docker containerization, the app moves seamlessly from code commit → build → test → containerization → deployment with minimal manual effort.
 
-It highlights the following key skills:
+- It highlights the following key skills:
 
-Building and containerizing applications using Docker
+- Building and containerizing applications using Docker.
 
-Automating software delivery with Jenkins pipelines
+- Automating software delivery with Jenkins pipelines.
 
-Ensuring reliability with automated testing
+- Ensuring reliability with automated testing.
 
-Running consistent environments using Docker Compose
+- Running consistent environments using Docker Compose.
 
-This project serves as a practical example of CI/CD automation and provides a solid foundation for scaling into more advanced DevOps workflows such as Kubernetes orchestration and cloud deployments.
+🚀 This project serves as a practical example of CI/CD automation and provides a solid foundation for scaling into more advanced DevOps workflows such as Kubernetes orchestration and cloud deployments.
